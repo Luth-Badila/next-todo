@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
+      <Navbar data-cy="header-title" />
       <Component {...pageProps} />
     </>
   );
